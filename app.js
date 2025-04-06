@@ -1,9 +1,10 @@
 let listaDeNumerosSorteados = [];
-
 let numeroLimite = 10;
 a22a8af6346e57f5d4520f72063ab5669b225ac0
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+
+exibirMensagemInicial();
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -17,8 +18,6 @@ function exibirMensagemInicial() {
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 a22a8af6346e57f5d4520f72063ab5669b225ac0
 }
-
-exibirMensagemInicial();
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
